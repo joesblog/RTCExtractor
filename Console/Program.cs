@@ -20,7 +20,7 @@ namespace ConsoleApp
   $"Proc bitness: {(Environment.Is64BitProcess ? "x64" : "x86")}. We must be 32 bit (x86)! ");
       if (args.Length < 2)
       {
-        Console.Error.WriteLine("Usage: RTCExtractor   <input_blob> <out_dir>");
+        Console.Error.WriteLine("Usage: RTCExtractor   <input_rtc> <out_dir>");
         return 1;
       }
 
@@ -56,7 +56,7 @@ namespace ConsoleApp
         Console.WriteLine($"{h.Rule.Kind,-12} {h.Start,10} {h.End,10} {h.Size,10}  {Path.GetFileName(outPath)}");
       }
 
-
+      Console.WriteLine("DONE!! Press any key to quit.");
       Console.ReadLine();
       return 0;
     }
