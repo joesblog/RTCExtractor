@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "\"D:\\Games\\RTC\\Modules\\EoB (49).RTC\" \"D:\\_Temp\\eobout1\"",
+      "nativeDebugging": true
+    }
+  }
+}
